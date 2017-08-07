@@ -33,3 +33,12 @@ var number2= parseInt (prompt("Enter height:"));
 
 var result = bmi(number1, number2);
 alert(result);
+
+var toCelcius = function (tempFarenheit){
+  return tempFarenheit*(9/5) + 32;
+}
+
+var tempFarenheit = prompt("What is the temperature in Celcius?");
+
+var temp = toCelcius(tempFarenheit);
+alert("That is " + temp + " degrees in farenheit.");
