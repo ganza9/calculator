@@ -19,3 +19,17 @@ var number2 = parseInt (prompt("Enter another number."));
 
 var result = divide(number1, number2);
 alert(result);
+
+
+var bmi = function (number1, number2) {
+	return (number1 / (number2**2)) * 703;
+}
+
+
+var number1 = parseInt (prompt("Enter weight:"));
+var number2= parseInt (prompt("Enter height:"));
+
+
+
+var result = bmi(number1, number2);
+alert(result);
